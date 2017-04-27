@@ -1,0 +1,90 @@
+body {
+  background-image: url('http://www.clipartkid.com/images/836/useful-wood-backgrounds-for-inspiration-NNQm1b-clipart.jpg');
+  background-attachment: fixed;
+  background-size: 100%;
+  margin-top: 70px;
+  font-family: 'Indie Flower', cursive;
+}
+#X, #O {
+  background: none;
+  width: 200px;
+  height: 200px;
+  line-height: 180px;
+  margin-top: 70px;
+  -webkit-transition: 1000ms;
+  -moz-transition: 1000ms;
+  -ms-transition: 1000ms;
+  -o-transition: 1000ms;
+  transition: 1000ms;
+  font-size: 100px;
+  font-weight: bold;
+  border: 1px solid black;
+  cursor: pointer;
+}
+#X:hover, #X:active, #O:hover, #O:active{
+  background: rgba(0,0,0,0.5);
+  border: 1px solid black;
+}
+.change .btn{
+  margin-top: 20px;
+  cursor: pointer;
+   background: none;
+  -webkit-transition: 1000ms;
+  -moz-transition: 1000ms;
+  -ms-transition: 1000ms;
+  -o-transition: 1000ms;
+  transition: 1000ms;
+  border: 1px solid black;
+  color: black; 
+}
+.change .btn:hover, .change .btn:active{
+  background: rgba(0,0,0,0.6);
+  border: 1px solid black;
+  color: white;
+}
+#sides{
+  font-size: 50px;
+  font-weight: bold;
+}
+#tictac{
+ // border: 1px solid black;
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+  padding-top: 19px;
+  background-image: url('http://progzoo.net/mw/images/2/2d/Noughts_and_crosses.png') ;
+  background-repeat: no-repeat;
+    background-position: center;
+  background-size: cover;
+}
+.tic, .tic:hover{
+  border: none;
+  border-radius: 0;
+  background: none;
+  width: 120px;
+  height: 120px;
+  margin: 0px -3px 0px 0px;
+  font-size: 80px;
+  font-family: 'Indie Flower', cursive;
+  font-weight: bold;
+  line-height: 100px;
+  cursor: pointer;
+}
+#info{
+ // border: 1px dashed black;
+  position: absolute;
+  width: 300px;
+  height: 100px;
+  left: 0; 
+  right: 0;
+  bottom: 0;
+  top: -40px;
+  margin-left: auto; 
+  margin-right: auto;
+  font-size: 60px;
+  font-weight: bold;
+}
+footer{
+  color: grey;
+ 
+}
